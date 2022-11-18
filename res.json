@@ -1,0 +1,468 @@
+{
+  "url": "https://stackoverflow.com/",
+  "date": 1668774158078,
+  "coverage_entities": "11% (12/115)",
+  "coverage_categories": "13% (5/40)",
+  "aggressive_coverage": "6% (1/18)",
+  "aggressive_categories": "20% (1/5)",
+  "fingerprint_categories": "User_agent;Platform;Storage;App_version;Content_language",
+  "fingerprint_categories_all": "User_agent;Platform;Storage;Storage;Storage;Storage;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;App_version;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;User_agent;Content_language;Content_language;",
+  "loadtime": 1619,
+  "TIMEOUT": false,
+  "score": 5,
+  "entities_all": "getElementsByName();navigator.userAgent;navigator.platform;window.localStorage;getItem();setItem();window.devicePixelRatio;navigator.appVersion;createElement();navigator.language;screen.width;screen.height;",
+  "script_origins_calls": {
+    "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js": {
+      "idx": 0,
+      "length": 1,
+      "data": [
+        {
+          "functioncall": "getElementsByName()",
+          "category": "unknown",
+          "object": "[object HTMLDocument]",
+          "idx": 0,
+          "gidx": 0
+        }
+      ]
+    },
+    "https://cdn.sstatic.net/Js/stub.en.js?v=0e3ada576039": {
+      "idx": 1,
+      "length": 8,
+      "data": [
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 0,
+          "gidx": 1
+        },
+        {
+          "functioncall": "navigator.platform",
+          "category": "Platform",
+          "object": "[object Window]",
+          "idx": 1,
+          "gidx": 2
+        },
+        {
+          "functioncall": "window.localStorage",
+          "category": "Storage",
+          "object": "[object Window]",
+          "idx": 2,
+          "gidx": 3
+        },
+        {
+          "functioncall": "window.localStorage",
+          "category": "Storage",
+          "object": "[object Window]",
+          "idx": 3,
+          "gidx": 4
+        },
+        {
+          "functioncall": "getItem()",
+          "category": "unknown",
+          "object": "[object LocalStorage]",
+          "idx": 4,
+          "gidx": 5
+        },
+        {
+          "functioncall": "window.localStorage",
+          "category": "Storage",
+          "object": "[object Window]",
+          "idx": 5,
+          "gidx": 6
+        },
+        {
+          "functioncall": "window.localStorage",
+          "category": "Storage",
+          "object": "[object Window]",
+          "idx": 6,
+          "gidx": 7
+        },
+        {
+          "functioncall": "setItem()",
+          "category": "unknown",
+          "object": "[object LocalStorage]",
+          "idx": 7,
+          "gidx": 8
+        }
+      ]
+    },
+    "https://cdn.sstatic.net/Js/full-anon.en.js?v=e0ac667c9297": {
+      "idx": 2,
+      "length": 2,
+      "data": [
+        {
+          "functioncall": "window.devicePixelRatio",
+          "category": "Screen_window",
+          "object": "[object Window]",
+          "idx": 0,
+          "gidx": 9
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 1,
+          "gidx": 10
+        }
+      ]
+    },
+    "https://www.googletagmanager.com/gtag/js?id=G-WCZ03SZFCQ": {
+      "idx": 3,
+      "length": 50,
+      "data": [
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 0,
+          "gidx": 11
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 1,
+          "gidx": 12
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 2,
+          "gidx": 13
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 3,
+          "gidx": 14
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 4,
+          "gidx": 15
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 5,
+          "gidx": 16
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 6,
+          "gidx": 17
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 7,
+          "gidx": 18
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 8,
+          "gidx": 19
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 9,
+          "gidx": 20
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 10,
+          "gidx": 21
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 11,
+          "gidx": 22
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 12,
+          "gidx": 23
+        },
+        {
+          "functioncall": "navigator.appVersion",
+          "category": "App_version",
+          "object": "[object Window]",
+          "idx": 13,
+          "gidx": 24
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 14,
+          "gidx": 25
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 15,
+          "gidx": 26
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 16,
+          "gidx": 27
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 17,
+          "gidx": 28
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 18,
+          "gidx": 29
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 19,
+          "gidx": 30
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 20,
+          "gidx": 31
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 21,
+          "gidx": 32
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 22,
+          "gidx": 33
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 23,
+          "gidx": 34
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 24,
+          "gidx": 35
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 25,
+          "gidx": 36
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 26,
+          "gidx": 37
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 27,
+          "gidx": 38
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 28,
+          "gidx": 39
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 29,
+          "gidx": 40
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 30,
+          "gidx": 41
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 31,
+          "gidx": 42
+        },
+        {
+          "functioncall": "navigator.userAgent",
+          "category": "User_agent",
+          "object": "[object Window]",
+          "idx": 32,
+          "gidx": 43
+        },
+        {
+          "functioncall": "createElement()",
+          "category": "unknown",
+          "object": "[object HTMLDocument]",
+          "idx": 33,
+          "gidx": 44
+        },
+        {
+          "functioncall": "createElement()",
+          "category": "unknown",
+          "object": "[object HTMLDocument]",
+          "idx": 34,
+          "gidx": 45
+        },
+        {
+          "functioncall": "createElement()",
+          "category": "unknown",
+          "object": "[object HTMLDocument]",
+          "idx": 35,
+          "gidx": 46
+        },
+        {
+          "functioncall": "createElement()",
+          "category": "unknown",
+          "object": "[object HTMLDocument]",
+          "idx": 36,
+          "gidx": 47
+        },
+        {
+          "functioncall": "createElement()",
+          "category": "unknown",
+          "object": "[object HTMLDocument]",
+          "idx": 37,
+          "gidx": 48
+        },
+        {
+          "functioncall": "createElement()",
+          "category": "unknown",
+          "object": "[object HTMLDocument]",
+          "idx": 38,
+          "gidx": 49
+        },
+        {
+          "functioncall": "createElement()",
+          "category": "unknown",
+          "object": "[object HTMLDocument]",
+          "idx": 39,
+          "gidx": 50
+        },
+        {
+          "functioncall": "createElement()",
+          "category": "unknown",
+          "object": "[object HTMLDocument]",
+          "idx": 40,
+          "gidx": 51
+        },
+        {
+          "functioncall": "navigator.language",
+          "category": "Content_language",
+          "object": "[object Window]",
+          "idx": 41,
+          "gidx": 52
+        },
+        {
+          "functioncall": "screen.width",
+          "category": "Screen_window",
+          "object": "[object Window]",
+          "idx": 42,
+          "gidx": 53
+        },
+        {
+          "functioncall": "screen.height",
+          "category": "Screen_window",
+          "object": "[object Window]",
+          "idx": 43,
+          "gidx": 54
+        },
+        {
+          "functioncall": "createElement()",
+          "category": "unknown",
+          "object": "[object HTMLDocument]",
+          "idx": 44,
+          "gidx": 55
+        },
+        {
+          "functioncall": "createElement()",
+          "category": "unknown",
+          "object": "[object HTMLDocument]",
+          "idx": 45,
+          "gidx": 56
+        },
+        {
+          "functioncall": "navigator.language",
+          "category": "Content_language",
+          "object": "[object Window]",
+          "idx": 46,
+          "gidx": 57
+        },
+        {
+          "functioncall": "screen.width",
+          "category": "Screen_window",
+          "object": "[object Window]",
+          "idx": 47,
+          "gidx": 58
+        },
+        {
+          "functioncall": "screen.height",
+          "category": "Screen_window",
+          "object": "[object Window]",
+          "idx": 48,
+          "gidx": 59
+        },
+        {
+          "functioncall": "createElement()",
+          "category": "unknown",
+          "object": "[object HTMLDocument]",
+          "idx": 49,
+          "gidx": 60
+        }
+      ]
+    }
+  },
+  "script_origins_calls_cnt": 61
+}

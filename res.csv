@@ -1,0 +1,8 @@
+url,date,JS Attributes Tracked,Fingerprinting Features,Aggressive Features,Aggresive Categories,Sensitive,loadtime
+https://www.google.com/,1668775313798,18,9,4,4,User_agent;App_version;Mobile;Storage;Cookies_enabled;Timezone;Connection;Device_memory;Hardware_concurrency,5600
+https://www.youtube.com/,1668775321057,34,12,6,6,User_agent;App_version;Storage;Cookies_enabled;Timezone;Connection;Online;Device_memory;Webdriver;Media_devices;Hardware_concurrency;Mobile,6348
+https://www.facebook.com/,1668775327329,24,16,8,8,Storage;User_agent;Hardware_concurrency;Device_memory;WebGL;Webdriver;List_of_plugins;Content_language;Connection;Permissions;Vendor;App_version;Platform;Timezone;Mobile;Online,4522
+https://www.microsoft.com/en-in/,1668775335719,33,19,8,8,User_agent;Product;Content_language;Timezone;Storage;App_version;Mobile;Cookies_enabled;Vendor;List_of_plugins;Webdriver;WebGL;Platform;Hardware_concurrency;Device_memory;Connection;Online;DoNotTrack;Product_sub,5545
+https://www.netflix.com/in/,1668775344154,19,6,0,0,Storage;Timezone;User_agent;DoNotTrack;Content_language;Vendor,4711
+https://twitter.com/,1668775350961,23,8,2,2,User_agent;Storage;Connection;Online;Platform;Timezone;List_of_plugins;Content_language,4928
+https://store.epicgames.com/en-US/,1668775363233,17,8,0,0,User_agent;Product;Storage;Mobile;Timezone;Online;Platform;DoNotTrack,8976
